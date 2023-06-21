@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - program that prints putchar
- * Return: Always 0 (Successfully)
+ * print_alphabet - Make the alphabet
+ * Return: 0 (Successfully)
  */
 void print_alphabet(void)
 {
