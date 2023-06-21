@@ -19,7 +19,7 @@ int main(void)
 	{
 	k += y;
 	y = k - y;
-	printf(",%ld", k);
+	printf(", %ld", k);
 	}
 	++x;
 	}
