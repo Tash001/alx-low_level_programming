@@ -1,10 +1,20 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
  * main - program that prints putchar
  * Return: Always 0 (Successfully)
  */
+
 int main(void)
 {
-	putchar("\n");
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
