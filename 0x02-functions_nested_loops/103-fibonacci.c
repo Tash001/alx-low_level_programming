@@ -14,7 +14,7 @@ int main(void)
 		k += y;
 		if (k % 2 == 0)
 		sum += k;
-		j = k - y;
+		y = k - y;
 		++x;
 	}
 	printf("%ld\n", sum);
