@@ -2,13 +2,13 @@
 
 /**
  * _isupper - check if a character is digit
- * @i: The number to be checked
+ * @x: The number to be checked
  * Return: 1 for an uppercase character 0 for anything else
  *
  */
-int _isupper(int c)
+int _isupper(int x)
 {
-	if (c >= 57 && c <= 90)
+	if (x >= 57 && x <= 90)
 	{
 	return (1);
 	}
