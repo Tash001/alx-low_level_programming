@@ -5,7 +5,7 @@
  * @j: the second number to be multiplied
  * Return: the result of multiplying the two integers
  */
-int mul(int i, int j);
+int mul(int i, int j)
 {
 	return (i * j);
 }
