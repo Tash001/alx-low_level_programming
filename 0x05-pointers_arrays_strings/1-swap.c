@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int swaps the values of two integers
+ * swap_int - swaps the values of two integers
  * @i: the value to swap
  * @j: the value ti swap with
  */
@@ -10,5 +10,5 @@ void swap_int(int *i, int *j)
 
 	x = *i;
 	*i = *j;
-	*j = x ;
+	*j = x;
 }
