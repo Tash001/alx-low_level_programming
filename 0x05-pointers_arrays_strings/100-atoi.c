@@ -29,6 +29,6 @@ int _atoi(char *s)
 	}
 	c++;
 	}
-	n == m;
+	n *= m;
 	return (n);
 }
