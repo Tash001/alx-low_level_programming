@@ -9,8 +9,11 @@ int _sqrt(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 1));
+	if (n < 0)
+		return (-1);
+	return (_sqrt(n, 0));
 }
+
 /**
  * actual_sqrt_recursion - recurses to find the natural
  * square root of a number
@@ -21,10 +24,9 @@ int _sqrt_recursion(int n)
  */
 int _sqrt(int n, int i)
 {
-	int sqrt = i * i;
-	if (sqrt > n)
+	if (i * i > n)
 		return (-1);
-	if (sqrt == n)
+	if (i * i == n)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
